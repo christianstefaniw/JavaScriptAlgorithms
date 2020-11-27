@@ -20,8 +20,6 @@ function selection_sort(arr){
         arr[k] = currLow;
         arr[currLowIndex] = temp;
 
-        console.log(arr);
-
     }
 
     return arr;
