@@ -3,6 +3,7 @@ function sequential_search(arr, val){
         if (arr[i] === val){
             return i;
         }
+        console.log('k')
     }
     return -1;
 }
