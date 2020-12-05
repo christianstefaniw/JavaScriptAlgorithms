@@ -1,4 +1,4 @@
-function binary_search(arr, x){
+function binarySearch(arr, x){
     let start = 0;
     let end = arr.length-1;
     let mid = 0;
@@ -20,4 +20,4 @@ function binary_search(arr, x){
     }
 }
 
-console.log(binary_search(Array(1,73,78,86,100,101), 86));
+console.log(binarySearch(Array(1,73,78,86,100,101), 86));

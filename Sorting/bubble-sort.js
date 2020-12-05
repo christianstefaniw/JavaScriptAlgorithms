@@ -1,4 +1,4 @@
-function bubble_sort(arr){
+function bubbleSort(arr){
     for (let passNum = arr.length; passNum > 0; passNum--){
         for (let i = 0; i < passNum; i++){
             if (arr[i] > arr[i+1]){
@@ -12,4 +12,4 @@ function bubble_sort(arr){
 }
 
 
-console.log(bubble_sort(new Array(6,2,1,8,7)));
+console.log(bubbleSort(new Array(6,2,1,8,7)));

@@ -1,4 +1,4 @@
-function insertion_sort(arr){
+function insertionSort(arr){
     for (let i = 1; i < arr.length; i++){
         let curr = arr[i];
         let prevIndex = i-1;
@@ -11,4 +11,4 @@ function insertion_sort(arr){
     return arr;
 }
 
-console.log(insertion_sort(Array(5,4,3,2,1)));
+console.log(insertionSort(Array(5,4,3,2,1)));

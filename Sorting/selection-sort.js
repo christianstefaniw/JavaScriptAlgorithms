@@ -1,4 +1,4 @@
-function selection_sort(arr){
+function selectionSort(arr){
 
     let currLow = 0;
     let currLowIndex = 0;
@@ -26,4 +26,4 @@ function selection_sort(arr){
 
 }
 
-console.log(selection_sort(Array(1,4,3,9,6,5,7)))
+console.log(selectionSort(Array(1,4,3,9,6,5,7)))

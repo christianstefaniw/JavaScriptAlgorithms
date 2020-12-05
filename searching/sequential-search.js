@@ -1,4 +1,4 @@
-function sequential_search(arr, val){
+function sequentialSearch(arr, val){
     for (let i = 0; i < arr.length; i++){
         if (arr[i] === val){
             return i;
@@ -8,4 +8,4 @@ function sequential_search(arr, val){
     return -1;
 }
 
-console.log(sequential_search(Array(5,3,2,6,78,8,3,11), 6));
+console.log(sequentialSearch(Array(5,3,2,6,78,8,3,11), 6));
